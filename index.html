@@ -17,9 +17,26 @@
       <input id="input" type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs" />
     <button id="btn" class="btn btn-outline btn-success">Success</button>
     </div>
+    <!-- <h1 id="phone" class="text-2xl text-center text-red-400	mt-5 hidden">NO phone Found !!!! </h1> -->
      <section id="container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
+   
      </section>
+     <div>
+      <h2 id="not-found-txt" class="text-center text-2xl text-yellow-400 mt-5 hidden">Phone not Found</h2>
+     </div>
+
+     <!-- The button to open modal -->
+<a href="#my-modal-2" class="btn">open modal</a>
+<!-- Put this part before </body> tag -->
+<div class="modal" id="my-modal-2">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Congratulations random Internet user!</h3>
+    <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+    <div class="modal-action">
+     <a href="#" class="btn">Yay!</a>
+    </div>
+  </div>
+</div>
   </main>
   <script src="./index.js"></script>
 </body>
